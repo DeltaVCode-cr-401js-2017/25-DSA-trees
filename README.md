@@ -1,4 +1,4 @@
-![cf](http://i.imgur.com/7v5ASc8.png) lab 25 - Binary Search Tree Data Structures
+![DV](https://www.deltavcodeschool.com/wp-content/uploads/DeltaV.png) Lab 25 - Binary Search Tree Data Structures
 ====
 
 ## To Submit this Assignment
@@ -38,14 +38,14 @@
 * implement the following static methods
   * `BSTNode.fromArray()` should create BST from items in an array
 * implement the following prototype methods
-  * `node.appendChild(node)` should append a child to the bst
-  * `node.min()` should return the min value in a bst
-  * `node.max()` should return the min value in a bst
+  * `node.appendChild(child)` should append a child to the BST
+  * `node.min()` should return the min value in a BST
+  * `node.max()` should return the max value in a BST
   * `node.lookup()` should return the node that contains the value, null otherwise
 
 ## Bonus Points:
-  * 2pts
-  * write a `node.balance()` that will balance the tree
+  * 2pts: write a `node.remove(key)` that will delete the `key` node
+  * 3pts: write a `node.balance()` that will balance the tree
 
 #### Rubric:
   * Tests: 2pts
